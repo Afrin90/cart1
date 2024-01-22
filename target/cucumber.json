@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify cart link",
+        "description": "",
+        "id": "this-is-cart1-practice;verify-cart-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3001590700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open URL",
+            "match": {
+              "location": "Step1.open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3448485800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on cart link",
+            "match": {
+              "location": "Step1.click_on_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3256185400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Cart link is working Successfully",
+            "match": {
+              "location": "Step1.verify_Cart_link_is_working_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is Cart1 practice",
+    "description": "",
+    "id": "this-is-cart1-practice",
+    "keyword": "Feature",
+    "uri": "Cart1.feature"
+  }
+]
